@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/persistent_counter_backend"
+]
+resolver = "2"

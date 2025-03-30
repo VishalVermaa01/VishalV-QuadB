@@ -1,0 +1,18 @@
+[package]
+name = "persistent_counter_backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ic-cdk = "0.17.1"
+ic-cdk-macros = "0.17.1"
+candid = "0.10.4"
+
+
+
+ # Feel free to remove this dependency if you don't need timers

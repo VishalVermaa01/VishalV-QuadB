@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "persistent_counter_backend": {
+      "candid": "src/persistent_counter_backend/persistent_counter_backend.did",
+      "package": "persistent_counter_backend",
+      "type": "rust"
+    },
+    "persistent_counter_frontend": {
+      "dependencies": [
+        "persistent_counter_backend"
+      ],
+      "source": [
+        "src/persistent_counter_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "persistent_counter_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
