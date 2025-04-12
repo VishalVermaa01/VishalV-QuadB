@@ -38,6 +38,16 @@ VishalV-QuadB/
 │   ├── Day4/SPL-token/
 │   ├── Day5/crud-dapp/
 │── README.md
+│── Week3/
+│   ├── Day1/Basic RealEstateToken
+│   ├── Day2/gas-fee/
+│   ├── Day3/ReentrancyAttackSimulation/
+│── Week4/
+│   ├── Day1/counter/
+│   ├── Day2/RefundFunctionalitySimulation/
+
+
+
 ```
 Each folder contains code and documentation related to specific blockchain-related tasks.
 
